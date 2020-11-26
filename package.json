@@ -6,9 +6,18 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "chart.js": "^2.9.4",
+    "polished": "^4.0.5",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
+    "react-google-charts": "^3.0.15",
+    "react-icons": "^3.11.0",
     "react-scripts": "4.0.1",
+    "recharts": "^1.8.5",
+    "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
