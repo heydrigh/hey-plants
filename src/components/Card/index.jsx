@@ -155,7 +155,7 @@ function Card() {
 
     const interval = setInterval(() => {
       getInfo();
-    }, 6000);
+    }, 60000);
 
     return () => clearInterval(interval);
   }, []);
