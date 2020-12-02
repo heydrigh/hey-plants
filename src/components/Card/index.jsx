@@ -67,10 +67,8 @@ function Card() {
 
   const getInfo = async () => {
     try {
-      // const generate = await api.get("/generate");
       const lastInfo = await api.get("/info/last");
 
-      // console.log(generate);
       setInfo(lastInfo.data);
     } catch (err) {
       console.error(err.message);
@@ -157,7 +155,7 @@ function Card() {
 
     const interval = setInterval(() => {
       getInfo();
-    }, 60000);
+    }, 6000);
 
     return () => clearInterval(interval);
   }, []);
